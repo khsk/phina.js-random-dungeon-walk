@@ -1,0 +1,15 @@
+ReferenceError: ROT is not defined[詳細]
+
+Gameオブジェクトはゲームの統括的情報を持つ
+Gameはmapとplayer(操作するプレイヤーオブジェクト)を持つ
+
+mapは2次元配列で、tile,unit,item,を持つ
+
+
+GRIDS定数は
+MAPX,全体のマップサイズ
+MAPY,
+SHOWX, 表示領域のサイズ
+SHOWY
+を持つ
+

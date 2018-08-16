@@ -1,0 +1,27 @@
+{
+  "name": "phina-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "webpack",
+    "start": "webpack-dev-server --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.1",
+    "css-loader": "^0.28.5",
+    "exports-loader": "^0.6.4",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1",
+    "yarn": "^0.27.5"
+  },
+  "dependencies": {
+    "phina.js": "^0.1.2",
+    "rot-js": "^0.6.3"
+  }
+}
